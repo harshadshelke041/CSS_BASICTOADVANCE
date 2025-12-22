@@ -1,0 +1,94 @@
+body {
+    color: black;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color:dodgerblue;
+}
+
+/* h1,h2{
+    color:rgb(255,255, 255);
+} */
+
+button{
+   color: rgb(244, 0, 0);
+   background-color: yellow;
+}
+
+#myh1{
+    color: yellow;
+}
+
+#myh2{
+    color: violet;
+}
+
+.myclass{
+    background-color: rebeccapurple ;
+}
+
+/* practice Set 1 */
+
+#box{
+    background-color: blue;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+
+/* text align */
+
+#texth1{
+    text-align:center;
+    color: black;
+}
+
+#textp{
+    text-decoration-line:underline overline red;
+}
+
+#h1{
+    font-weight: lighter;
+}
+
+#h2{
+    font-weight: bold;
+
+
+}
+#h3 {
+    font-weight: bolder;
+}
+
+#h4{
+    font-weight: lighter;
+
+}
+
+/* font family  line-height text-transform*/
+
+#fontfamily {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    line-height:normal;
+    text-transform: capitalize;
+} 
+
+#centre{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+  font-size: 25px;
+}
+
+#inner{
+   font-size: 10px;
+}
