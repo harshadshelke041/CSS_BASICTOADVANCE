@@ -1,1 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
+#myh1{
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+    text-align: center;
+}
+
+#div1{
+    background-color: turquoise;
+    height: 200px;
+    width: 800px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: magenta;
+    text-align: center;
+    text-transform:capitalize ;
+}
+.div {
+   border: 2px solid red;
+   height: 100px;
+   width: 100px;
+   background-color: blue;
+   color:orangered;
+   text-align: center;
+   padding: 1px 2px 3px 4px;
+   margin: 25px;
+   
+}
+
+/* Pratice set - 3 */
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+
+.header-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #111111; /* inner black bar */
+    padding: 10px 16px;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: #f0a63a;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.nav a{
+    color: #fff;
+    margin: 0 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.search input{
+    padding: 6px 8px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+
+.navbar{
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.logo{
+   color: orange;
+   font-weight: bold;
+   font-size: 22px;
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 75px;
+}
+
+.search input{
+   padding: 5px;
+}
+
+.search button{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.divdisp{
+    height: 100px;
+    width: 100px;
+    color: white;
+    margin:20px;
+    padding: 20px;
+    display: inline-block;
+    
+}
