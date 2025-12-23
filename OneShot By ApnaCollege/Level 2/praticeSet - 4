@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        #header{
+            background-color: black;
+            color: white;
+            height: 35px;
+            
+            
+        }
+
+        a {
+            margin-right: 200px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            
+        }
+
+        #logo{
+            margin-left: 50px;
+            color: turquoise;
+            font-size: 24px;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        button{
+            background-color: silver;
+            border-radius: 10px;
+        }
+
+        input{
+            padding: 3px;
+            border-radius: 8px;
+        }
+
+        #content{
+            background-color:steelblue;
+            height: 600px;
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline ;
+            margin-top: 0;
+            padding-top: 30px;
+        }
+       
+        .myclass {
+            border: 3px solid rgb(141, 5, 5);
+            background-color: red;
+            width: 300px;
+            height: 400px;
+            display: inline-block;
+            margin-top:50px ;
+            padding: 10px;
+            margin-right: 40px;
+        }
+
+        #div1{
+            margin-left: 10px;
+            background-color: #ca08a080 ;
+        }
+
+        #div2{
+            background-color: rgb(230, 230, 15,0.5);
+        }
+
+        #div3{
+            background-color: rgb(16, 215, 115,0.5);
+        }
+
+        #div4{
+            background-color:rgb(220, 20, 60,0.5    );
+        }
+        
+
+        #footer{
+            background-color: black;
+            display: flex;
+            height: 100px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+       #p1{
+        color: white;
+        
+        text-align: center;
+        margin-right: 7px;
+       }
+
+       #p2 {
+        color: white;
+       }
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a href="#" id="logo">Flipcart</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <input type="text" placeholder="Search Flipcart.in">
+        <button>Click Me</button>
+    </div>
+
+
+    <div id="content">
+        <h1>Here is Our Product</h1>
+
+        <div id="div1" class="myclass"></div>
+        <div id="div2" class="myclass"></div>
+        <div id="div3" class="myclass"></div>
+        <div id="div4" class="myclass"></div>
+
+    </div>
+    <div id="footer">
+        <p id="p1">Made with ♥ </p>
+         <p id="p2">© 2025 My Website</p>
+    </div>
+</body>
+</html>
