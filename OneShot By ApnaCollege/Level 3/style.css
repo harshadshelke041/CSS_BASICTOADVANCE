@@ -1,0 +1,12 @@
+#mydiv{
+    height: 100px;
+    width: 100px;
+    color: black;
+    font-size: 18px;
+    background-image: url(pic.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 10px;
+
+}
