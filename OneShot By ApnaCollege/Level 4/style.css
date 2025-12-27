@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+   
+    
+    
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a#logo{
+    color: rgb(221, 146, 8);
+    font-size: 20px;
+}
+
+p{
+    padding-top: 50px;
+}
+
+#outer{
+    height: 600px;
+    width: 800px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    height: 50%;
+    width: 40%;
+    background-color: springgreen;
+    
+   
+}
