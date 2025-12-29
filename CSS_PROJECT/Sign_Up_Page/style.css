@@ -1,0 +1,149 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+.navbar{
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   height: 70px;
+   align-items: center;
+   width: 100vw;
+   justify-content: space-around;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   
+   
+}
+
+
+.navbar .left-nav{
+   display: flex;
+   gap:50px;
+   align-items: center;
+}
+
+.navbar .left-nav h1{
+   font-size: 24px;
+   font-weight: 900;
+   margin-left: -50px;
+   color: orange;
+   text-decoration: underline;
+}
+
+.navbar .left-nav a{
+   color: black;
+   text-decoration: none;
+   margin-left: 20px;
+   font-size: 18px;
+   font-weight: 530;
+}
+
+.navbar .right-nav{
+   display: flex;
+   flex-direction: row;
+   margin-left: 200px;
+   gap: 50px;
+   
+}
+
+.navbar .right-nav button{
+   background-color: blueviolet;
+   
+   padding: 10px 15px;
+   border: none;
+   font-size: 13px;
+   border-radius: 10px;
+   font-size: 15px;
+   font-weight: 500;
+   cursor:cell;
+}
+
+.navbar .right-nav input{
+   border-radius: 10px;
+   
+}
+#search{
+   margin-left: -40px;
+}
+
+.content{
+   /* display: flex; */
+}
+
+.content h2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 130px;
+   font-size: 28px;
+   
+}
+
+.content .login-box{
+   width: 13%;
+display: flex;
+   margin-top: 20px;
+   justify-content: center;
+   margin-left: 650px;
+   
+   
+   flex-direction: column;
+}
+
+.content .login-box .email{
+   margin-top: 20px;
+}
+
+.content .login-box .email{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.content .login-box input{
+   padding: 5px;
+   margin-top: 5px;
+   border-radius: 5px;
+   
+}
+
+.content .login-box .password-label{
+   margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500 ;
+   
+}
+
+.content .login-box .forgot{
+   margin-top: 10px;
+   text-decoration: none;
+}
+
+.content .login-box button{
+   margin-top: 20px;
+   height: 35px;
+   background-color: blue;
+   color: white;
+   font-size: 18px;
+}
+
+.content p {
+   margin-top: 25px;
+   margin-left: 650px;
+}
+
+.logo{
+   display: flex;
+   margin-top: 20px;
+   justify-content: center;
+   gap: 40px;
+   font-size: 27px;
+}
+
+footer{
+   display: flex;
+   margin-top: 20px;
+   margin-left: 720px;
+}
